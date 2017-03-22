@@ -1,5 +1,10 @@
 TinyTurtle.apply(window, [undefined, 400, 400]);
 
+function parallelagram(){
+square();
+triangle();
+}
+parallelagram();
 function square(){
 forward(50);
 right(90);
@@ -10,6 +15,7 @@ right(90);
 forward(50);
 right(90);
 forward(50);
+right(30);
 }
 square();
 // Type your function call below
@@ -21,4 +27,3 @@ forward(50);
 }
 triangle();
 
-//stamp();
